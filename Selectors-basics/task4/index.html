@@ -10,46 +10,20 @@
       crossorigin="anonymous"
     />
     <style>
-      a[target='_blank'] {
+      [href][target] {
         color: green;
-      }
-      ul,
-      ol {
-        background-color: yellow;
-      }
-
-      header {
-        border: 3px dashed blue;
-      }
-
-      footer {
-        border: 3px dashed blue;
-      }
-      .Caption {
-        margin-left: 20px;
-      }
-
-      .new {
-        font-size: 24px;
-      }
-
-      .new.posted-today {
-        background-color: pink;
-      }
-      .topic.new {
-        background-color: red;
       }
     </style>
   </head>
 
   <body>
     <header>
-      <h1 class="Caption">Селекторы атрибутов</h1>
+      <h1>Селекторы атрибутов</h1>
       <nav class="navigation"></nav>
     </header>
     <main>
       <section>
-        <h2 class="Caption">Popular articles</h2>
+        <h2>Popular articles</h2>
         <article class="new">
           <p>
             Ссылка может открываться в новой табе браузера. Для этого нужно
@@ -63,7 +37,7 @@
             селектора
           </p>
         </article>
-        <article class="new">
+        <article>
           <p>
             Один и тот же элемент может быть выбран двумя и более правилами,
             каждое из которых имеет собственный селектор
@@ -71,7 +45,7 @@
         </article>
       </section>
       <aside>
-        <h3 class="Caption">Popular topics</h3>
+        <h3>Popular topics</h3>
         <ol>
           <li class="topic most-popular">Web dewelopment</li>
           <li class="topic new">Internet</li>
@@ -81,7 +55,7 @@
     </main>
     <footer>
       <section>
-        <h4 class="Caption">Site map</h4>
+        <h4>Site map</h4>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#" target="_blank">Our another website</a></li>
@@ -90,7 +64,7 @@
         </ul>
       </section>
       <section>
-        <h4 class="Caption">Social media</h4>
+        <h4>Social media</h4>
         <ul>
           <li>
             <a href="https://www.instagram.com" target="_blank">Instagram</a>
