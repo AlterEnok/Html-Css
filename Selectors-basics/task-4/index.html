@@ -14,20 +14,27 @@
         color: green;
       }
 
-      ol {
+      .list {
         background-color: yellow;
+      }
+      .page-border {
+        border: 3px dashed blue;
+      }
+
+      .page-header {
+        margin-left: 20px;
       }
     </style>
   </head>
 
   <body>
-    <header>
-      <h1>Селекторы атрибутов</h1>
+    <header class="page-border">
+      <h1 class="page-header">Селекторы атрибутов</h1>
       <nav class="navigation"></nav>
     </header>
     <main>
       <section>
-        <h2>Popular articles</h2>
+        <h2 class="page-header">Popular articles</h2>
         <article class="new">
           <p>
             Ссылка может открываться в новой табе браузера. Для этого нужно
@@ -49,18 +56,18 @@
         </article>
       </section>
       <aside>
-        <h3>Popular topics</h3>
-        <ol>
+        <h3 class="page-header">Popular topics</h3>
+        <ol class="list">
           <li class="topic most-popular">Web dewelopment</li>
           <li class="topic new">Internet</li>
           <li class="topic">Nature</li>
         </ol>
       </aside>
     </main>
-    <footer>
+    <footer class="page-border">
       <section>
-        <h4>Site map</h4>
-        <ul>
+        <h4 class="page-header">Site map</h4>
+        <ul class="list">
           <li><a href="#">Home</a></li>
           <li><a href="#" target="_blank">Our another website</a></li>
           <li><a href="#">About</a></li>
@@ -68,8 +75,8 @@
         </ul>
       </section>
       <section>
-        <h4>Social media</h4>
-        <ul>
+        <h4 class="page-header">Social media</h4>
+        <ul class="list">
           <li>
             <a href="https://www.instagram.com" target="_blank">Instagram</a>
           </li>
