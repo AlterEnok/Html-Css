@@ -5,22 +5,22 @@ div {
   border: 2px solid black;
 }
 
-.rectangle1 {
+.first {
   background-color: blue;
   margin: 50px 50px;
   padding: 50px;
 }
-.rectangle2 {
+.second {
   background-color: yellow;
   margin-left: 100px;
   margin-top: -345px;
 }
-.rectangle3 {
+.third {
   background-color: green;
   margin-left: 150px;
   margin-top: -210px;
 }
-.rectangle4 {
+.fourth {
   background-color: pink;
   margin-left: 190px;
   margin-top: -130px;
