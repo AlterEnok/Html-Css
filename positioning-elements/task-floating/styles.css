@@ -1,6 +1,6 @@
 .container {
-  width: 1208px;
-  height: 1189px;
+  width: 900px;
+  height: 500px;
 }
 .tip {
   background-color: white;
@@ -22,8 +22,8 @@
 .child {
   background-color: yellow;
   position: absolute;
-  right: 25px;
-  top: 101px;
+  right: 61px;
+  top: 97px;
 }
 
 .relative-parent {
@@ -33,7 +33,7 @@
 }
 
 .absolute-parent {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 50px;
 }
