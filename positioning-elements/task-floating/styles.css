@@ -1,9 +1,11 @@
+.container {
+  height: 5000px;
+}
 .tip {
   background-color: white;
 }
 .static-parent {
   position: static;
-  background-color: gray;
 }
 .child,
 .parent {
@@ -33,4 +35,10 @@
   position: absolute;
   bottom: 20px;
   right: 50px;
+}
+
+.fixed-parent {
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
 }
