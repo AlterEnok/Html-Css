@@ -5,6 +5,10 @@
   width: 100px;
   height: 100px;
 }
+section {
+  background: aquamarine;
+  padding: 16px;
+}
 .red {
   background-color: red;
   float: right;
@@ -24,5 +28,4 @@
 .container {
   float: left;
   width: 50%;
-  background-color: aquamarine;
 }
