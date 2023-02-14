@@ -1,7 +1,7 @@
 .options {
   height: 200px;
   width: 20%;
-  display: inline-block;
+  float: left;
 }
 .block_red {
   background-color: red;
