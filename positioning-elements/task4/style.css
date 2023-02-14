@@ -1,20 +1,22 @@
-.options {
-  height: 200px;
-  width: 200px;
-  display: inline-block;
+.container {
+  display: flex;
 }
-.block_red {
+.block {
+  width: 200px;
+  height: 200px;
+}
+.red {
   background-color: red;
 }
-.block_green {
+.green {
   background-color: green;
 }
-.block_blue {
+.blue {
   background-color: blue;
 }
-.block_yellow {
+.yellow {
   background-color: yellow;
 }
-.block_black {
+.black {
   background-color: black;
 }
