@@ -1,68 +1,69 @@
+li {
+  list-style: none;
+}
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background-color: darkturquoise;
   height: 40px;
+  z-index: 50;
 }
-.nav-list {
-  display: inline-block;
 
-  align-items: center;
+.nav-list {
+  margin: 0;
+  line-height: 40px;
+  list-style: none;
 }
-li {
-  display: inline-block;
-  height: 40px;
+.nav-item {
+  float: left;
   margin-left: 16px;
   color: white;
 }
 .content {
-  background-color: beige;
   height: 5000px;
+  background-color: beige;
 }
-
 .head {
   width: 200px;
   height: 200px;
-  position: absolute;
-  top: calc(20% + 100px);
-  left: calc(40px + 40%);
-
-  align-items: center;
-
-  transform: rotate(45eg);
   background-color: aquamarine;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  position: absolute;
 }
 .ear {
+  background-color: brown;
+}
+.ear_right {
+  position: absolute;
   width: 40px;
   height: 60px;
-  position: relative;
   top: -60px;
-  left: calc(80px + 60%);
-  background-color: brown;
+  right: -40px;
 }
 .ear_left {
+  position: absolute;
   width: 40px;
   height: 60px;
-  position: relative;
-  top: -120px;
-  left: calc(80px - 60%);
-  background-color: brown;
+  top: -60px;
+  left: -40px;
 }
-
+.eye {
+  height: 30px;
+  width: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  position: relative;
+}
 .eye_right {
-  width: 30px;
-  height: 30px;
-  background-color: grey;
-  border-radius: 50%;
-  position: relative;
-  top: -40px;
-  right: calc(100px - 110%);
+  position: absolute;
+  top: 80px;
+  left: 40px;
 }
-
 .eye_left {
-  width: 30px;
-  height: 30px;
-  background-color: grey;
-  border-radius: 50%;
-  position: relative;
-  top: -70px;
-  left: calc(100px - 30%);
+  position: absolute;
+  top: 80px;
+  right: 40px;
 }
