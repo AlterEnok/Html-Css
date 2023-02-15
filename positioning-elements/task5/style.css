@@ -22,7 +22,7 @@ li {
   width: 200px;
   height: 200px;
   position: absolute;
-  top: calc(50% + 100px);
+  top: calc(20% + 100px);
   left: calc(40px + 40%);
 
   align-items: center;
