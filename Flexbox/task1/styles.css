@@ -1,0 +1,27 @@
+html {
+  font-size: 24px;
+}
+
+div {
+  margin: 16px;
+  border: 1px solid burlywood;
+}
+
+.horizontal {
+  display: flex;
+  margin: 16px;
+  background-color: aqua;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  background-color: coral;
+  height: 200px;
+  align-items: center;
+  justify-content: space-around;
+}
