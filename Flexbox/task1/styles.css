@@ -16,9 +16,10 @@ div {
   align-items: center;
   justify-content: space-around;
 }
-.vertical {
+.vertical span {
   background-color: coral;
-
+}
+.vertical {
   display: flex;
   flex-direction: column;
   margin: 16px;
