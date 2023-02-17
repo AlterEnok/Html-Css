@@ -4,10 +4,10 @@ div.block {
   height: 100px;
   width: 100px;
   flex-shrink: 0;
+  flex-grow: 1;
 }
 
-.block {
+.container {
   display: flex;
-
   flex-wrap: wrap;
 }
