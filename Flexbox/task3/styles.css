@@ -46,7 +46,8 @@
   text-align: center;
 }
 .news li {
-  margin-left: -9px;
+  margin-left: -4px;
+
   height: 40px;
   list-style-type: none;
 }
