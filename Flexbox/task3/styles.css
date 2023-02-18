@@ -41,3 +41,11 @@
   width: 200px;
   background-color: grey;
 }
+.news h2 {
+  text-align: center;
+}
+.news li {
+  margin-left: 16px;
+  height: 40px;
+  list-style-type: none;
+}
