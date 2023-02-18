@@ -11,7 +11,7 @@
   display: flex;
 }
 .navigation {
-  margin-left: -35px;
+  margin-left: 16px;
   display: flex;
   list-style-type: none;
 }
