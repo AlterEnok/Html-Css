@@ -47,6 +47,7 @@
 }
 .news li {
   height: 40px;
-  margin-left: -16px;
+  margin-left: -28px;
+
   list-style-type: none;
 }
