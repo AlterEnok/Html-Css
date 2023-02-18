@@ -11,12 +11,12 @@
   display: flex;
 }
 .navigation {
-  margin: 0;
+  margin-left: -35px;
   display: flex;
   list-style-type: none;
 }
 .navigation__item {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 .footer__text {
   margin: auto;
@@ -45,7 +45,7 @@
   text-align: center;
 }
 .news li {
-  margin-left: 16px;
+  margin-left: -13px;
   height: 40px;
   list-style-type: none;
 }
