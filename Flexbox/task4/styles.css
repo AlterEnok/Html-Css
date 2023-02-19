@@ -3,7 +3,9 @@
 }
 .block {
   height: 300px;
-  display: flex;
+  width: 15%;
+
+  float: left;
 }
 .block_red {
   background-color: red;
