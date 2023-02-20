@@ -14,7 +14,7 @@ h1 {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  flex-shrink: 0;
+  flex-shrink: 1;
   flex-grow: 1;
 }
 .articles-list {
