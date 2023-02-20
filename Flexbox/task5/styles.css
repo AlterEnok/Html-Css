@@ -2,18 +2,19 @@
   box-sizing: border-box;
 }
 header {
-  display: flex;
   align-items: center;
   height: 40px;
-  margin-left: 520px;
 }
-
+h1 {
+  text-align: center;
+}
 .article {
   flex-basis: 100px;
+
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  flex-shrink: 1;
+  flex-shrink: 0;
   flex-grow: 1;
 }
 .articles-list {
