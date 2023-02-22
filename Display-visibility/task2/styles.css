@@ -3,6 +3,8 @@
 }
 .articles {
   display: flex;
+}
+.articles > div {
   width: 150px;
   height: 100px;
   background-color: beige;
