@@ -3,13 +3,12 @@
 }
 .articles {
   display: flex;
-}
-div {
   width: 150px;
   height: 100px;
   background-color: bisque;
   margin: 16px;
 }
+
 .cropped {
   overflow: hidden;
 }
