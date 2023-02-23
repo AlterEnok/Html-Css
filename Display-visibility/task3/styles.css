@@ -45,3 +45,7 @@
 
   cursor: pointer;
 }
+
+.dropdown:hover .menu-item {
+  background-color: ghostwhite;
+}
