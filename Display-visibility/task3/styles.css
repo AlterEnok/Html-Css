@@ -11,6 +11,7 @@
   background-color: darkgreen;
   opacity: 0.8;
   color: white;
+  display: inline-block;
 }
 .menu-list {
   position: absolute;
@@ -44,8 +45,4 @@
   font-size: 16px;
 
   cursor: pointer;
-}
-
-.dropdown:hover .menu-item {
-  background-color: ghostwhite;
 }
