@@ -2,9 +2,11 @@
   margin: 16px;
   border-bottom: 1px dotted black;
   display: inline-block;
+  position: relative;
 }
 .tooltip {
   background-color: grey;
+  position: absolute;
   color: white;
   border-radius: 4px;
   padding: 8px;
