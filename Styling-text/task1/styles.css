@@ -4,11 +4,12 @@ body {
 }
 section {
   margin: 32px;
+  font-size: 18px;
 }
 h1 {
   font-weight: 900;
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 15px;
   text-align: center;
 }
 p {
