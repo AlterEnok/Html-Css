@@ -4,11 +4,9 @@ body {
 }
 section {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
 }
 
 h1 {
-  font-weight: 900;
   text-transform: uppercase;
   word-spacing: 20px;
   text-align: center;
