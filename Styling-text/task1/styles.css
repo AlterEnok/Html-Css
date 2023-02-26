@@ -1,13 +1,14 @@
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  margin: 32px;
 }
 section {
-  margin: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 18px;
 }
+
 h1 {
-  font-weight: 900;
   text-transform: uppercase;
   word-spacing: 15px;
   text-align: center;
