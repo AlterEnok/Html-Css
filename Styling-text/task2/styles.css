@@ -1,0 +1,15 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  font-size: 74px;
+  text-align: center;
+}
+div {
+  height: 200px;
+  background-color: coral;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 200px;
+}
