@@ -2,7 +2,7 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-  height: 74px;
+  font-size: 74px;
   width: 50%;
   overflow: hidden;
   text-overflow: ellipsis;
