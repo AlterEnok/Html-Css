@@ -2,8 +2,12 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-  font-size: 74px;
-  text-align: center;
+  height: 74px;
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0 auto;
 }
 div {
   height: 200px;
