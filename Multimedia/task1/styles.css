@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-.main-image {
+.image-container {
   margin: 50px auto;
   display: block;
   max-width: 100%;
@@ -19,7 +19,7 @@
 .opacity-filter {
   filter: opacity(50%);
 }
-.blure-filter {
+.blur-filter {
   filter: blur(4px);
 }
 .invert-filter {
