@@ -2,14 +2,12 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: bisque;
-}
 .page {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: bisque;
 }
 .login-form {
   background-color: aqua;
@@ -24,10 +22,12 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
-.form-control + .form-control {
-  margin-top: 8px;
+.form-control {
+  margin-top: 20px;
 }
+
 .form-label {
+  display: block;
   margin-bottom: 4px;
 }
 .form-input {
