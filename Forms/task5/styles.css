@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  margin: 32px;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  margin-bottom: 4px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+}
+.languages {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.radio {
+  margin-bottom: 8px;
+}
+
+.submit-button {
+  margin-top: 16px;
+}
