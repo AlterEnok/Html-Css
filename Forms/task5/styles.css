@@ -9,16 +9,16 @@ input,
 select,
 textarea {
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
 label {
   display: block;
   margin-bottom: 4px;
+  margin-left: 21px;
 }
 .languages {
-  display: inline-block;
-  margin-right: 10px;
+  display: flex;
 }
 
 .radio {
