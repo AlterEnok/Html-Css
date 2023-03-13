@@ -11,7 +11,9 @@ textarea {
   display: block;
   margin-bottom: 8px;
 }
-
+div {
+  margin: 8px;
+}
 label {
   display: block;
   margin-bottom: 4px;
@@ -20,9 +22,6 @@ label {
 .languages {
   display: flex;
   flex-direction: row;
-}
-[type='radio'] {
-  margin-left: 4px;
 }
 
 .submit-button {
