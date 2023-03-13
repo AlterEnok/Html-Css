@@ -22,7 +22,7 @@ label {
   flex-direction: row;
 }
 [type='radio'] {
-  margin-left: 15px;
+  margin-left: 4px;
 }
 
 .submit-button {
