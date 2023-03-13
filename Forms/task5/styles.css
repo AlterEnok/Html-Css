@@ -5,25 +5,6 @@ form {
   margin: 32px;
 }
 
-input,
-select,
-textarea {
-  display: block;
-  margin-bottom: 8px;
-}
 div {
   margin: 8px;
-}
-label {
-  display: block;
-  margin-bottom: 4px;
-  margin-left: 4px;
-}
-.languages {
-  display: flex;
-  flex-direction: row;
-}
-
-.submit-button {
-  margin-top: 16px;
 }
