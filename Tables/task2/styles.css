@@ -7,9 +7,12 @@ table {
   margin: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+table {
+  margin: 32px;
+}
 th,
 td {
+  padding: 4px;
   text-align: right;
   line-height: 40px;
 }
