@@ -3,9 +3,8 @@
 }
 
 table {
-  width: 100%;
+  width: 500px;
   margin: 16px;
-  overflow-x: auto;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,6 +12,7 @@ th,
 td {
   padding: 4px;
   text-align: right;
+  line-height: 40px;
 }
 
 th {
@@ -42,16 +42,10 @@ tbody tr:hover {
 tbody td {
   height: 40px;
 }
+div {
+  overflow-x: auto;
+}
 
 tfoot td {
   font-weight: 700;
-}
-
-table caption {
-  margin-bottom: 8px;
-  margin-top: 16px;
-}
-
-tfoot td {
-  padding-bottom: 8px;
 }
