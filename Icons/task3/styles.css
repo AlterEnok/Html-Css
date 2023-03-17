@@ -11,13 +11,13 @@
 }
 .battery-half {
   font-size: 64px;
-  margin-top: -3px;
+  margin-top: -5px;
 }
 .battery-quarter {
   font-size: 128px;
-  margin-top: -3px;
+  margin-top: -5px;
 }
 .battery-empty {
   font-size: 256px;
-  margin-top: -3px;
+  margin-top: -5px;
 }
