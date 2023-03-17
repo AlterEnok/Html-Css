@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .icons {
   display: flex;
   justify-content: space-around;
@@ -7,17 +10,13 @@
 }
 .battery-three-quarters {
   font-size: 32px;
-  margin-top: -3px;
 }
 .battery-half {
   font-size: 64px;
-  margin-top: -5px;
 }
 .battery-quarter {
   font-size: 128px;
-  margin-top: -5px;
 }
 .battery-empty {
   font-size: 256px;
-  margin-top: -5px;
 }
