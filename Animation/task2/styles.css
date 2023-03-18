@@ -6,39 +6,33 @@
   height: 100px;
   background-color: coral;
   position: absolute;
-  animation: move 4s;
-  animation-iteration-count: 4;
-  animation-direction: alternate;
-animation-fill-mode: forwards;
+  animation: move 8s ease-in-out alternate infinite;
 }
+
 @keyframes move {
   0% {
     left: 0;
-    right: 0;
+    top: 0;
+    background-color: coral;
   }
   25% {
     left: 300px;
     top: 0;
-    background-color: coral;
+    background-color: cornflowerblue;
   }
-
   50% {
     left: 300px;
     top: 300px;
-    background-color: cornflowerblue;
+    background-color: aqua;
   }
-
   75% {
     left: 0;
     top: 300px;
-    background-color: aqua;
+    background-color: yellowgreen;
   }
-
   100% {
     left: 0;
     top: 0;
-    background-color: yellowgreen;
+    background-color: coral;
   }
 }
-
-квадрату задай ширину и высоту по 100px. фон coral. Двигаться должен сначала круг по часовой стрелке(4s), потом обратно  против часовой(4s)ю Цвет квадрата должен плавно меняться в процессе движения: coral-левый верхний угол, cornflowerblue - правый верхний угол, aqua - правый нижний угол, yellowgreen - левый нижний угол
