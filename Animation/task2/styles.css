@@ -9,6 +9,7 @@
   animation: move 4s;
   animation-iteration-count: 4;
   animation-direction: alternate;
+animation-fill-mode: forwards;
 }
 @keyframes move {
   0% {
@@ -39,3 +40,5 @@
     background-color: yellowgreen;
   }
 }
+
+квадрату задай ширину и высоту по 100px. фон coral. Двигаться должен сначала круг по часовой стрелке(4s), потом обратно  против часовой(4s)ю Цвет квадрата должен плавно меняться в процессе движения: coral-левый верхний угол, cornflowerblue - правый верхний угол, aqua - правый нижний угол, yellowgreen - левый нижний угол
