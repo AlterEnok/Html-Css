@@ -3,7 +3,7 @@
   height: 100px;
   background-color: coral;
   position: absolute;
-  animation: move 8s ease-in-out alternate infinite;
+  animation: move 4s ease-in-out alternate infinite;
 }
 
 @keyframes move {
