@@ -4,6 +4,10 @@
   align-items: center;
   height: 100vh;
 }
+
+.spinner {
+  align-items: center;
+}
 .spinner-text {
   animation: blinking 2s linear infinite;
   text-transform: uppercase;
