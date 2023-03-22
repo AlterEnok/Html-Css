@@ -12,7 +12,7 @@
 .spinner {
   align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 .spinner-text {
   animation: blinking 2s linear infinite;
