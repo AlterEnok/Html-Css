@@ -21,6 +21,8 @@
 }
 
 .circle {
+  display: flex;
+  justify-content: center;
   width: 50px;
   height: 50px;
   border: 4px solid lightgrey;
@@ -28,7 +30,6 @@
   border-radius: 50%;
   margin-bottom: 8px;
   animation: spin 2s infinite linear;
-  margin-left: 20px;
 }
 
 @keyframes blinking {
