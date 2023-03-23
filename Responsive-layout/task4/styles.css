@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
@@ -15,46 +14,35 @@ html {
   background: linear-gradient(60deg, red, orange);
 }
 
+/* навигация, секция и новости */
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
 .navigation,
 .section,
 .news {
   padding: 0.5em;
 }
+
 .navigation {
   width: 20%;
 }
 
-.section {
-  width: 60%;
-  margin: 0 auto;
-  font-size: 1.25em;
-  line-height: 1.75em;
-}
-.news {
-  width: 20%;
-  float: right;
-}
-
-.css-units {
-  font-size: 1.125em;
-  font-weight: 700;
-  color: #8b0000;
-  background-color: #e5e5e5;
-}
-.section__header {
-  font-size: 5vw;
-  text-align: center;
-}
 .nav-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 .nav-list-item {
   background-color: #808080;
   line-height: 2em;
   margin-bottom: 0.5em;
 }
+
 .nav-list-link {
   display: block;
   padding: 0.5em;
@@ -64,6 +52,37 @@ html {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.section {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 1.25em;
+  line-height: 1.75em;
+}
+
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.units-list {
+  line-height: 1.75em;
+}
+
+.css-units {
+  font-size: 1.125em;
+  font-weight: 700;
+  color: #8b0000;
+  background-color: #e5e5e5;
+}
+
+/* основная секция */
+
+.news {
+  width: 20%;
+  float: right;
+}
+
 .footer {
   background-color: #e5e5e5;
   padding: 0.5em;
