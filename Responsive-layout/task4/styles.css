@@ -19,7 +19,10 @@ html {
 .news {
   padding: 0.5em;
 }
-
+.main {
+  display: flex;
+  justify-content: space-between;
+}
 .navigation {
   width: 20%;
 }
