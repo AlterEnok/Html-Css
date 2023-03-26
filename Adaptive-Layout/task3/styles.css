@@ -1,9 +1,11 @@
 main {
   display: flex;
   justify-content: center;
+  max-width: 100%;
 }
 img {
   max-width: 100%;
 
   margin: auto;
+  margin-top: -8px;
 }
