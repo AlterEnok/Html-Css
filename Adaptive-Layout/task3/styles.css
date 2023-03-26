@@ -9,3 +9,8 @@ img {
   margin: auto;
   margin-top: -8px;
 }
+@media only screen and (max-width: 400px) {
+  img {
+    content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg);
+  }
+}
