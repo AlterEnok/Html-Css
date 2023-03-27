@@ -29,9 +29,6 @@ body {
   flex: 1;
   justify-content: space-between;
 }
-.navigation {
-  width: 20%;
-}
 
 .nav-list {
   list-style: none;
