@@ -11,15 +11,12 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-
 .header {
   height: 3em;
   padding: 0 1em;
   background-color: #eee;
-  display: flex;
-  justify-content: center;
-  margin-top: -8px;
 }
+
 .menu-toggle {
   padding: 0;
   border: none;
