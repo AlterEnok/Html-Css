@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
 }
-main {
+
+.container {
   display: flex;
   justify-content: center;
-  max-width: 100%;
 }
+
 img {
   max-width: 100%;
-  margin: auto;
+  height: auto;
 }
