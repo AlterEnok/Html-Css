@@ -102,7 +102,7 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-  .info-section {
+  .main {
     display: flex;
   }
 
@@ -113,6 +113,9 @@ body {
   .navigation {
     width: 20vw;
   }
+  .section img {
+    content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/big.png');
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -121,14 +124,14 @@ body {
   }
 
   .section {
-    width: 60vw;
+    width: 60%;
   }
 
   .navigation {
-    width: 20vw;
+    width: 20%;
   }
 
   .news {
-    width: 20vw;
+    width: 20%;
   }
 }
