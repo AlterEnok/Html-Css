@@ -13,10 +13,9 @@ body {
 }
 
 .header {
+  background-image: linear-gradient(60deg, red, orange);
+  text-align: center;
   color: white;
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(60deg, red, orange);
 }
 
 .navigation,
@@ -27,26 +26,27 @@ body {
 .main {
   display: flex;
   flex: 1;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .nav-list {
-  list-style: none;
-
   padding: 0;
 }
-
 .nav-list-item {
-  background-color: #808080;
+  list-style-type: none;
+  height: 2em;
+  background-color: grey;
   line-height: 2em;
+  color: white;
   margin-bottom: 0.5em;
 }
 
 .nav-list-link {
-  display: block;
+  width: 100%;
+  display: inline-block;
   padding: 0 0.5em;
-  color: #fff;
   text-decoration: none;
+  color: white;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -54,7 +54,7 @@ body {
 
 .section {
   width: 100%;
-  margin: 0 auto;
+  padding: 0.5em;
   font-size: 1.25em;
 }
 
@@ -75,26 +75,25 @@ body {
 }
 
 .news {
-  width: 20%;
-  float: right;
+  width: 100%;
+  padding: 0.5em;
 }
 
 .footer {
   background-color: #e5e5e5;
+  text-align: center;
   padding: 0.5em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 .section img {
   max-width: 100%;
+  height: auto;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 600px) {
-  .main {
+  .main,
+  .news {
     flex-direction: column;
     width: 100%;
     max-width: 600px;
