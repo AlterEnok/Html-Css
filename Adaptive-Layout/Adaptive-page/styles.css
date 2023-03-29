@@ -53,7 +53,6 @@ body {
 }
 
 .section {
-  width: 60%;
   margin: 0 auto;
   font-size: 1.25em;
 }
@@ -100,37 +99,33 @@ body {
     max-width: 600px;
   }
 }
-
 @media screen and (min-width: 600px) {
   .main {
     display: flex;
   }
-
   .section {
-    width: 80vw;
+    width: 100%;
   }
-
   .navigation {
-    width: 20vw;
+    width: 20%;
+  }
+  .news {
+    width: 100%;
   }
   .section img {
     content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/hw2/big.png');
   }
 }
-
 @media screen and (min-width: 1200px) {
   .main {
     flex-direction: row;
   }
-
   .section {
     width: 60%;
   }
-
   .navigation {
     width: 20%;
   }
-
   .news {
     width: 20%;
   }
