@@ -1,13 +1,3 @@
-@media only screen and (orientation: portrait) {
-  .container {
-    flex-direction: column;
-  }
-}
-@media only screen and (orientation: landscape) {
-  .container {
-    flex-direction: row;
-  }
-}
 * {
   box-sizing: border-box;
 }
@@ -33,6 +23,21 @@
 @media screen and (min-width: 1200px) {
   .square {
     background-color: #a61;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .square {
+    background-color: #c47;
+  }
+}
+@media only screen and (orientation: landscape) {
+  .square .container {
+    flex-direction: row;
+  }
+}
+@media only screen and (orientation: portrait) {
+  .square .container {
+    flex-direction: column;
   }
 }
 

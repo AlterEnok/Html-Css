@@ -24,4 +24,20 @@
   @include for-large-up {
     background-color: #a61;
   }
+
+  @include for-extra-large-up {
+    background-color: #c47;
+  }
+
+  @media only screen and (orientation: landscape) {
+    .container {
+      flex-direction: row;
+    }
+  }
+
+  @media only screen and (orientation: portrait) {
+    .container {
+      flex-direction: column;
+    }
+  }
 }
