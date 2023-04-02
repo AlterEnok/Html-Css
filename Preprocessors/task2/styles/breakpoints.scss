@@ -32,3 +32,14 @@ $xl: 1400px;
     @content;
   }
 }
+@media only screen and (orientation: landscape) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}
