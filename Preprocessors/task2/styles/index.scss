@@ -1,10 +1,13 @@
 @import 'breakpoints.scss';
 
+$container-width: 324px;
+$square-size: 100px;
+$square-margin: 8px;
 * {
   box-sizing: border-box;
 }
 
-body {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,10 +15,10 @@ body {
 }
 
 .square {
-  width: 100px;
-  height: 100px;
+  width: $square-size;
+  height: $square-size;
+  margin: $square-margin;
   background-color: #ff7f50;
-  margin: 8px;
 
   @include media-query($medium-screen) {
     background-color: #8a2be2;
@@ -27,5 +30,17 @@ body {
 
   @include media-query($extra-large-screen) {
     background-color: #c47;
+  }
+
+  @media only screen and (orientation: landscape) {
+    .container {
+      flex-direction: row;
+    }
+  }
+
+  @media only screen and (orientation: portrait) {
+    .container {
+      flex-direction: column;
+    }
   }
 }
