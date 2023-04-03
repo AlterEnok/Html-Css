@@ -1,45 +1,61 @@
 @import 'variables.scss';
 
-.header {
-  height: $header-height;
-  background-color: $header-color;
-}
 .menu {
-  display: flex;
-  margin: 0;
-  padding: 0 0 0 3em;
-  color: $main-color;
   list-style: none;
-  text-transform: uppercase;
-
-  li {
-    padding: 0 8px;
-    cursor: $pointer;
-  }
-  &.menu__item_active {
-    color: yellow;
-  }
-}
-.submenu {
   margin: 0;
   padding: 0;
-  background-color: #ff7f50;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  color: #fff;
-  list-style-type: none;
-  display: none;
-  min-width: 120px;
-  z-index: 1;
+  display: flex;
 
-  li {
-    padding: 8px;
+  align-items: center;
+  height: 3em;
+  background-color: $menu-background-color;
+  z-index: $menu-z-index;
+  min-width: $menu-min-width;
+
+  &__item {
+    padding: $menu-item-padding;
     cursor: pointer;
 
+    &-text {
+      text-transform: uppercase;
+      color: $menu-item-text-color;
+    }
+
     &:hover {
-      color: black;
+      background-color: $menu-item-hover-background-color;
+
+      &-text {
+        color: #000;
+      }
+    }
+
+    &.menu__item_active {
+      &-text {
+        color: $menu-item-active-text-color;
+      }
+    }
+
+    .submenu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      background-color: $submenu-background-color;
+      box-shadow: $submenu-box-shadow;
+      padding: 0;
+      text-align: left;
+
+      &__item {
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+
+        &:hover {
+          color: #000;
+        }
+      }
     }
   }
-}
-.menu__item:hover .submenu {
-  display: block;
 }

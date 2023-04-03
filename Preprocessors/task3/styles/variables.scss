@@ -1,4 +1,13 @@
-$header-height: 3em;
-$header-color: #006400;
-$main-color: #fff;
-$pointer: pointer;
+$menu-background-color: #006400;
+$menu-item-padding: 8px;
+
+$menu-item-text-color: #fff;
+$menu-item-hover-background-color: #9acd32;
+$menu-item-active-text-color: yellow;
+
+$submenu-background-color: #ff7f50;
+$submenu-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+$submenu-text-color: #fff;
+
+$menu-min-width: 120px;
+$menu-z-index: 1;
