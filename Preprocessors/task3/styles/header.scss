@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   display: flex;
-
   align-items: center;
   height: 3em;
   background-color: $menu-background-color;
@@ -15,6 +14,7 @@
   &__item {
     padding: $menu-item-padding;
     cursor: pointer;
+    position: relative;
 
     &-text {
       text-transform: uppercase;
@@ -27,6 +27,10 @@
       &-text {
         color: #000;
       }
+
+      .submenu {
+        display: block;
+      }
     }
 
     &.menu__item_active {
@@ -36,6 +40,7 @@
     }
 
     .submenu {
+      display: none;
       position: absolute;
       top: 100%;
       left: 0;
@@ -46,11 +51,12 @@
       box-shadow: $submenu-box-shadow;
       padding: 0;
       text-align: left;
+      z-index: 1;
+      color: #fff;
 
       &__item {
         padding: 0;
         margin: 0;
-        cursor: pointer;
 
         &:hover {
           color: #000;
