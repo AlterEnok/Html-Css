@@ -22,22 +22,22 @@
 .square {
   width: 100px;
   height: 100px;
-  background-color: #8a2be2;
+  background-color: #ff7f50;
   margin: 8px;
 }
 @media screen and (min-width: 900px) {
   .square {
-    background-color: #a61;
+    background-color: #8a2be2;
   }
 }
 @media screen and (min-width: 1200px) {
   .square {
-    background-color: #c47;
+    background-color: #a61;
   }
 }
 @media screen and (min-width: 1400px) {
   .square {
-    background-color: #ff7f50;
+    background-color: #c47;
   }
 }
 
