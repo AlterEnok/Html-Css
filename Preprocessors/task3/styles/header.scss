@@ -19,6 +19,7 @@
 
     &-text {
       text-transform: uppercase;
+      margin-left: 3em;
       color: $menu-item-text-color;
     }
 
@@ -48,7 +49,6 @@
       margin: 0;
       padding: 0;
       margin-left: 3em;
-
       list-style: none;
       background-color: $submenu-background-color;
       box-shadow: $submenu-box-shadow;

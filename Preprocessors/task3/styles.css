@@ -17,6 +17,7 @@
 }
 .menu__item-text {
   text-transform: uppercase;
+  margin-left: 3em;
   color: #fff;
 }
 .menu__item:hover {
