@@ -14,10 +14,10 @@
   position: relative;
   line-height: 3em;
   padding: 0 8px;
+  color: #fff;
 }
 .menu__item-text {
   text-transform: uppercase;
-  color: #fff;
 }
 .menu__item:hover {
   background-color: #9acd32;
@@ -28,7 +28,7 @@
 .menu__item:hover .submenu {
   display: block;
 }
-.menu__item.menu__item_active-text {
+.menu__item.menu__item_active {
   color: yellow;
 }
 .menu__item .submenu {

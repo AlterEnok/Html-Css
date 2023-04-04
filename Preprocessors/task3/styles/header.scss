@@ -17,11 +17,10 @@
     position: relative;
     line-height: 3em;
     padding: 0 8px;
+    color: $menu-item-text-color;
 
     &-text {
       text-transform: uppercase;
-
-      color: $menu-item-text-color;
     }
 
     &:hover {
@@ -37,9 +36,7 @@
     }
 
     &.menu__item_active {
-      &-text {
-        color: $menu-item-active-text-color;
-      }
+      color: yellow;
     }
 
     .submenu {
