@@ -2,11 +2,11 @@
 
 .menu {
   list-style: none;
-  margin: 0;
-
+  padding-left: 3em;
   display: flex;
   align-items: center;
   line-height: 3em;
+
   background-color: $menu-background-color;
   z-index: $menu-z-index;
   min-width: $menu-min-width;
