@@ -1,0 +1,43 @@
+@import 'breakpoints.scss';
+
+.navigation {
+  background-color: $nav-color;
+  min-height: $height;
+  display: flex;
+  flex: 1;
+}
+.products-list {
+  background-color: $product-color;
+  min-height: $height;
+  display: flex;
+  flex: 1;
+}
+
+.news {
+  background-color: $news-color;
+  min-height: $height;
+  display: flex;
+  flex: 1;
+}
+span {
+  background-color: $span-color;
+  padding: 8px;
+  border-radius: $border-radius;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: $transform;
+  margin: auto;
+}
+@include extra-small {
+  .products {
+    display: flex;
+    flex: 1;
+    flex-basis: calc(100% / 3);
+  }
+}
+@include extra-medium {
+  .products {
+    display: flex;
+    flex: 1;
+    flex-basis: calc(100% / 3);
+  }
+}

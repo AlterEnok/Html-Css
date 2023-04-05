@@ -1,0 +1,20 @@
+$sm: 600px;
+$md: 900px;
+
+@mixin extra-small {
+  @media screen and (max-width: $sm) {
+    @content;
+  }
+}
+@mixin extra-medium {
+  @media screen and (max-width: $md) {
+    @content;
+  }
+}
+$height: 200px;
+$nav-color: #ff7f50;
+$product-color: #006400;
+$news-color: #0ff;
+$span-color: #faebd7;
+$transform: lowercase;
+$border-radius: 4px;
