@@ -28,14 +28,14 @@ span {
   margin: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .products {
     display: flex;
     flex: 1;
     flex-basis: 33.3333333333%;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 900px) {
   .products {
     display: flex;
     flex: 1;

@@ -2,12 +2,12 @@ $sm: 600px;
 $md: 900px;
 
 @mixin extra-small {
-  @media screen and (max-width: $sm) {
+  @media screen and (min-width: $sm) {
     @content;
   }
 }
 @mixin extra-medium {
-  @media screen and (max-width: $md) {
+  @media screen and (min-width: $md) {
     @content;
   }
 }
